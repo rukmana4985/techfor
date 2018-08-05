@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    overflow: hidden;
+    background-color:  #00A1E0;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 17px 10px;
+    text-decoration: none;
+}
+
+ul.topnav li input
+{
+	border-radius: 100px;
+	border: 0;
+	height: 40px;
+	margin-top: 16px;
+	outline: none;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+ul.topnav li a.btn-signup
+{
+	margin-top: 10%;
+	border: 1px solid #fff;
+	padding: 8px 20px;
+	border-radius: 30px;	
+}
+ul.topnav li input::placeholder
+{
+	color: grey;
+}
+ul.topnav li a:hover:not(.active) {background-color: rgba(0,0,0, .2);}
+
+/*ul.topnav li a.active {background-color: #4CAF50;}*/
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+/*.jumbotron
+{
+	height: 500px;
+}*/
+.center-block
+{
+	text-align: center;
+}
+.text-lead
+{
+	/*font-size: 100%;*/
+	font-weight: 400;
+	color: #434A54;
+}
+.blue-lead
+{
+	color: #00A1E0;
+	font-weight: bold;
+}
+.rgba-background
+{
+	background-color: rgba(0,161,224,0.2);
+}
